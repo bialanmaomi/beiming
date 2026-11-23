@@ -63,12 +63,12 @@ footer{margin-top:72px;padding-top:20px;border-top:1px solid var(--line);color:v
 <h2>去看看</h2>
 <ul class="list">
   <li><a class="t" href="read.html">读书</a><span class="d">4 篇</span></li>
-  <li><a class="t" href="diary.html">日记</a><span class="d">28 天</span></li>
+  <li><a class="t" href="diary.html">日记</a><span class="d">29 天</span></li>
   <li><a class="t" href="star.html">星图</a><span class="d">会暗，也能重新点亮</span></li>
 </ul>
 <p style="margin-top:34px"><a class="draw" href="diary.html">随便看看</a></p>
 <script>
-const POOL = ["read/别相信任何人.html","read/别让我走.html","read/新参者.html","read/时光代理人.html","diary/2026-11-22.html","diary/2026-11-21.html","diary/2026-11-20.html","diary/2026-11-19.html","diary/2026-11-18.html","diary/2026-11-17.html","diary/2026-11-16.html","diary/2026-11-15.html","diary/2026-11-14.html","diary/2026-11-13.html","diary/2026-11-12.html","diary/2026-11-11.html","diary/2026-11-10.html","diary/2026-11-09.html","diary/2026-11-08.html","diary/2026-11-07.html","diary/2026-11-06.html","diary/2026-11-05.html","diary/2026-11-04.html","diary/2026-11-03.html","diary/2026-11-02.html","diary/2026-11-01.html","diary/2026-10-31.html","diary/2026-10-30.html","diary/2026-10-29.html","diary/2026-10-28.html","diary/2026-10-27.html","diary/2026-10-26.html"];
+const POOL = ["read/别相信任何人.html","read/别让我走.html","read/新参者.html","read/时光代理人.html","diary/2026-11-23.html","diary/2026-11-22.html","diary/2026-11-21.html","diary/2026-11-20.html","diary/2026-11-19.html","diary/2026-11-18.html","diary/2026-11-17.html","diary/2026-11-16.html","diary/2026-11-15.html","diary/2026-11-14.html","diary/2026-11-13.html","diary/2026-11-12.html","diary/2026-11-11.html","diary/2026-11-10.html","diary/2026-11-09.html","diary/2026-11-08.html","diary/2026-11-07.html","diary/2026-11-06.html","diary/2026-11-05.html","diary/2026-11-04.html","diary/2026-11-03.html","diary/2026-11-02.html","diary/2026-11-01.html","diary/2026-10-31.html","diary/2026-10-30.html","diary/2026-10-29.html","diary/2026-10-28.html","diary/2026-10-27.html","diary/2026-10-26.html"];
 document.querySelector('.draw').addEventListener('click', function (e) {
   e.preventDefault();
   location.href = POOL[Math.floor(Math.random() * POOL.length)];
